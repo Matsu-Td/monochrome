@@ -1,17 +1,16 @@
-
 /**
- * @file ModeTeamLogo.h
- * @brief ƒ`[ƒ€ƒƒS•\¦
- *
- * @date 2020-09-20
- * @author ¼”ö’‰•F
+ * @file   ModeTeamLogo.h
+ * @brief  ƒ`[ƒ€ƒƒS•`‰æˆ—
+ * 
+ * @author matsuo tadahiko
+ * @date   2020/09/20
  */
 
 #include "ModeBase.h"
 
-class ModeTeamLogo : public ModeBase
-{
-	typedef ModeBase base;
+class ModeTeamLogo : public ModeBase{
+	using base = ModeBase;
+
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);

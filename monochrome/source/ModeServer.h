@@ -15,7 +15,7 @@ class Game;
 
 class	ModeServer
 {
-	typedef	std::list<ModeBase*>		lstModeBase;
+	using lstModeBase = std::list<ModeBase*>;
 
 public:
 	ModeServer(Game& g);

@@ -1,17 +1,16 @@
-
 /**
- * @file ModeGameClear.h
- * @brief ゲームクリア
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+ * @file   ModeGameClear.h
+ * @brief  ゲームクリアモードクラス
+ * 
+ * @author matsuo tadahiko
+ * @date   2020/09/20
  */
 
 #include "ModeBase.h"
 
-class ModeGameClear : public ModeBase
-{
-	typedef ModeBase base;
+class ModeGameClear : public ModeBase{
+	using base = ModeBase;
+
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);

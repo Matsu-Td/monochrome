@@ -1,12 +1,12 @@
-#pragma once
-
 /**
- * @file KyuriStageSelect.h
- * @brief ステージ選択画面の敵(キュウリ君)表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+ * @file   KyuriStageSelect.h
+ * @brief  ステージ選択画面の敵(キュウリ君)表示
+ * 
+ * @author matsuo tadahiko
+ * @date   2020/09/20
  */
+
+#pragma once
 
 #include "Game.h"
 

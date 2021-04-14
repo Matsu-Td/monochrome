@@ -23,7 +23,7 @@ namespace MODETITLE {
 
 class ModeTitle : public ModeBase
 {
-	typedef ModeBase base;
+	using base = ModeBase;
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);

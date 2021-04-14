@@ -1,10 +1,9 @@
-
 /**
- * @file ModeStageSelect.h
- * @brief ステージ選択画面
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+ * @file   ModeStageSelect.h
+ * @brief  ステージ選択画面
+ * 
+ * @author matsuo tadahiko
+ * @date   2020/09/20
  */
 
 #include "ModeBase.h"
@@ -13,9 +12,9 @@
 #include "KyuriStageSelect.h"
 #include "StageSyosai.h"
 
-class ModeStageSelect : public ModeBase
-{
-	typedef ModeBase base;
+class ModeStageSelect : public ModeBase{
+	using base = ModeBase;
+
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);
