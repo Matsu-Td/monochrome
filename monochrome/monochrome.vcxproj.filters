@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{f8ba513c-60f5-4185-b74c-7a9cc2fc6dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Enemy">
+      <UniqueIdentifier>{1c28b2a1-3939-4fd8-abe6-98d9f8450506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode">
+      <UniqueIdentifier>{5ebe02ac-8b64-4ec9-977a-90875d7171d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode">
+      <UniqueIdentifier>{24a4bcbf-b4fc-4d3c-970d-157eabd1f2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{21afd81c-c820-4bd2-b939-a5efb6d4c840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object\Enemy">
+      <UniqueIdentifier>{48011f93-5c10-4f71-bafb-36fa2afa0166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode\ModeGame">
+      <UniqueIdentifier>{4bd264fb-8b9b-4771-ba72-1a57feef492e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode\ModeGame">
+      <UniqueIdentifier>{588e31a7-7682-4a3c-a263-b1880b8ec4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode\ModeStageSelect">
+      <UniqueIdentifier>{87fd6647-9a7b-4702-9157-8cbe05c3820c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode\ModeStageSelect">
+      <UniqueIdentifier>{b6e90a23-2ff0-425a-aa7c-9ce4b10262c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode\ModeTitle">
+      <UniqueIdentifier>{105fbafe-e5dc-44fe-9543-0c24933950a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode\ModeTitle">
+      <UniqueIdentifier>{3d8e8dc0-4f98-48c5-8dc8-b9c0e466fa10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mode\ModeLogo">
+      <UniqueIdentifier>{e331ef5f-05e8-490e-b545-11fe17147e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mode\ModeLogo">
+      <UniqueIdentifier>{188e06ea-ab6b-4fa4-8301-f024678727b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\background.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ResourceServer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mapchips.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyA.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyB.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyC.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Note.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Goal.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectBase.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectServer.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeBase.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeMelody.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeServer.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode_CrossFade.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mode_LightMap.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyD.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTutorial.cpp">
+      <Filter>ソース ファイル\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGame.cpp">
+      <Filter>ソース ファイル\Mode\ModeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameClear.cpp">
+      <Filter>ソース ファイル\Mode\ModeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameOver.cpp">
+      <Filter>ソース ファイル\Mode\ModeGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NasuStageSelect.cpp">
+      <Filter>ソース ファイル\Mode\ModeStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeStageSelect.cpp">
+      <Filter>ソース ファイル\Mode\ModeStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\KyuriStageSelect.cpp">
+      <Filter>ソース ファイル\Mode\ModeStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTitle.cpp">
+      <Filter>ソース ファイル\Mode\ModeTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\NasuTitle.cpp">
+      <Filter>ソース ファイル\Mode\ModeTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTeamLogo.cpp">
+      <Filter>ソース ファイル\Mode\ModeLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeAmgLogo.cpp">
+      <Filter>ソース ファイル\Mode\ModeLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StageSlide.cpp">
+      <Filter>ソース ファイル\Mode\ModeStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StageSyosai.cpp">
+      <Filter>ソース ファイル\Mode\ModeStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MelodyTitle.cpp">
+      <Filter>ソース ファイル\Mode\ModeTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PianoSound.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyBase.cpp">
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\background.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ResourceServer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mapchips.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\picojson\picojson.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeBase.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeMelody.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeServer.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Goal.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Note.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyC.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Enemy.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyA.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyB.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\player.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectBase.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectServer.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mode_CrossFade.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mode_LightMap.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyD.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTutorial.h">
+      <Filter>ヘッダー ファイル\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGame.h">
+      <Filter>ヘッダー ファイル\Mode\ModeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameClear.h">
+      <Filter>ヘッダー ファイル\Mode\ModeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameOver.h">
+      <Filter>ヘッダー ファイル\Mode\ModeGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeStageSelect.h">
+      <Filter>ヘッダー ファイル\Mode\ModeStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NasuStageSelect.h">
+      <Filter>ヘッダー ファイル\Mode\ModeStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\KyuriStageSelect.h">
+      <Filter>ヘッダー ファイル\Mode\ModeStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTitle.h">
+      <Filter>ヘッダー ファイル\Mode\ModeTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NasuTitle.h">
+      <Filter>ヘッダー ファイル\Mode\ModeTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeAmgLogo.h">
+      <Filter>ヘッダー ファイル\Mode\ModeLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTeamLogo.h">
+      <Filter>ヘッダー ファイル\Mode\ModeLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StageSlide.h">
+      <Filter>ヘッダー ファイル\Mode\ModeStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StageSyosai.h">
+      <Filter>ヘッダー ファイル\Mode\ModeStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MelodyTitle.h">
+      <Filter>ヘッダー ファイル\Mode\ModeTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PianoSound.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EnemyBase.h">
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
