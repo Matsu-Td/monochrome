@@ -34,7 +34,7 @@ public:
 
 	static int _selectMenu;  // 選択しているメニューを格納
 
-protected:
+private:
 	static constexpr int CG_TITLE_X = 480, CG_TITLE_Y = 270;      // タイトル名座標
 	static constexpr int CG_KETTEI_X = 1640, CG_KETTEI_Y = 960;   // けってい画像座標
 	static constexpr int CG_SSGID_X = 1560, CG_SSGID_Y = 50;      // 操作ガイド座標

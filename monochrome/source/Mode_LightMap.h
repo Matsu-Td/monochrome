@@ -19,7 +19,7 @@ public:
 	bool Process(Game& g);
 	bool Draw(Game& g);
 
-protected:
+private:
 	// ライトのマスデータに円のスポットライトを入れる
 	void SpotLight(int cx, int cy, int cr);
 

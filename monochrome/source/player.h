@@ -17,6 +17,7 @@ class Player : public ObjectBase {
 public:
     Player(Game& g);
     ~Player();
+
     virtual OBJECTTYPE GetType() { return ObjectBase::OBJECTTYPE::PLAYER; }
 
     void Init(Game& g);

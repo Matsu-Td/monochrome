@@ -16,7 +16,8 @@ class Goal:public ObjectBase {
 public:
 	Goal(Game& g);
 	~Goal();
-	virtual OBJECTTYPE GetType() { return ObjectBase::OBJECTTYPE::GOAL; }
+
+	OBJECTTYPE GetType() { return ObjectBase::OBJECTTYPE::GOAL; }
 
 	void Init(Game& g);
 	void Process(Game& g);

@@ -17,7 +17,9 @@ class Note :public ObjectBase {
 public:
 	Note(Game& g);
 	~Note();
-	virtual OBJECTTYPE	GetType() { return ObjectBase::OBJECTTYPE::NOTE; }
+
+	OBJECTTYPE	GetType() { return ObjectBase::OBJECTTYPE::NOTE; }
+	
 	void Init();
 	void Process(Game& g);
 	void Draw(Game& g);

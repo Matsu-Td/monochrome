@@ -25,7 +25,7 @@ public:
 	 */
 	void Capture(int fadecnt);
 
-protected:
+private:
 	int	_cg;     // フェード用全体黒画面表示
 	int	_cnt;    // フェードカウント
 	int	_all;    // フェード総カウント数

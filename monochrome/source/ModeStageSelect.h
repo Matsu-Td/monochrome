@@ -23,7 +23,7 @@ public:
 	bool Process(Game& g);
 	bool Draw(Game& g);
 
-protected: 
+private:
 	static constexpr int PIANO_ALL = 6;                          // ピアノブロック総数
 	const int PIANO_X[PIANO_ALL] = { 656,802,948,729,875,1021 }; // ピアノブロックX座標
 	const int PIANO_Y[2] = { 860,902 };                          // ピアノブロックY座標

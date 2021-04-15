@@ -21,7 +21,7 @@ public:
 
 	int _cgNum;
 
-protected:
+private:
 	static constexpr int  CG_X = 410, CG_Y = 215;  // à–¾‰æ–Ê•\¦À•W
 
 	int _cg[10];  // à–¾‰æ–Ê

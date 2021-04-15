@@ -16,7 +16,9 @@ class EnemyBase :public ObjectBase{
 public:
 	EnemyBase();
 	~EnemyBase();
+
 	virtual OBJECTTYPE	GetType() { return ObjectBase::OBJECTTYPE::ENEMYABCD; }
+
 	virtual void Init();
 	virtual void Process(Game& g);
 	virtual void Draw(Game& g);

@@ -19,7 +19,7 @@ public:
 	bool Process(Game& g);
 	bool Draw(Game& g);
 
-protected:
+private:
 	static constexpr int ALPHA_MAX = 255;   // ƒ¿Å‘å’l
 	static constexpr int CG_TEAMLOGO_X = 600, CG_TEAMLOGO_Y = 440;  // ƒƒSÀ•W
 

@@ -32,8 +32,7 @@ private:
 
 	static constexpr int MODORU_POS_X = 40;                          //「もどる」表示 X座標
 	static constexpr int MODORU_POS_Y = 960;                         //「もどる」表示 Y座標
-
-protected:	
+	
 	int	_bg;          // 背景	
 	int	_cgModoru;    // もどる
 	int _cgPiano[4];  // ピアノブロック

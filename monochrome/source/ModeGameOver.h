@@ -19,6 +19,6 @@ public:
 	bool Process(Game& g);
 	bool Draw(Game& g);
 
-protected:
+private:
 	int	_cgGameOver;	// ゲームオーバー画像
 };

@@ -35,6 +35,4 @@ private:
 	int _oldEnPos;          // 一歩前の位置(音階の連続再生防止)
 	int _disX, _disZ;       // キュウリ君と敵の距離
 	float _w;               // 大きさ
-
-
 };

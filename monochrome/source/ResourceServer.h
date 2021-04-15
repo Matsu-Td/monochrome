@@ -3,7 +3,6 @@
  * @brief  リソース管理サーバー
  * 
  * @author matsuo tadahiko
- * @date   2021/04/
  */
 
 #pragma once
