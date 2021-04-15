@@ -18,12 +18,12 @@ class ModeStageSelect : public ModeBase{
 	using base = ModeBase;
 
 public:
-	bool Initialize(Game& g);
-	bool Terminate(Game& g);
-	bool Process(Game& g);
-	bool Draw(Game& g);
+	virtual bool Initialize(Game& g);
+	virtual bool Terminate(Game& g);
+	virtual bool Process(Game& g);
+	virtual bool Draw(Game& g);
 
-private:
+protected:
 	static constexpr int PIANO_ALL = 6;                          // ピアノブロック総数
 	const int PIANO_X[PIANO_ALL] = { 656,802,948,729,875,1021 }; // ピアノブロックX座標
 	const int PIANO_Y[2] = { 860,902 };                          // ピアノブロックY座標

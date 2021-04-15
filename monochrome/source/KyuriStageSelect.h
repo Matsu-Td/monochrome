@@ -5,13 +5,14 @@
  * @author matsuo tadahiko
  */
 
+#pragma once
+
 #include "Game.h"
 
 /**
  * @brief ステージ選択画面の敵(キュウリ君)表示
  */
-class KyuriStageSelect
-{
+class KyuriStageSelect{
 public:
 	KyuriStageSelect();
 
