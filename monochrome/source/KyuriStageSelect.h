@@ -5,8 +5,6 @@
  * @author matsuo tadahiko
  */
 
-#pragma once
-
 #include "Game.h"
 
 /**

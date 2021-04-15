@@ -22,8 +22,7 @@
  * @brief ゲームモードクラス
  */
 class ModeGame : public ModeBase {
-	using base = ModeBase;
-
+	typedef ModeBase base;
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);
