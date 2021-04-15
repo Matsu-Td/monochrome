@@ -1,16 +1,18 @@
-#pragma once
-
-/**
- * @file Player.h
- * @brief プレイヤー計算、描画処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   player.h
+ * @brief  プレイヤークラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "ObjectBase.h"
 #include "Camera.h"
 
+/**
+ * @brief プレイヤークラス
+ */
 class Player : public ObjectBase {
 public:
     Player(Game& g);

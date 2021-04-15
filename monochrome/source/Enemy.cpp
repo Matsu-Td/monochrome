@@ -1,10 +1,8 @@
-
-/**
- * @file Enemy.cpp
- * @brief 敵(キュウリ君)の移動、描画処理
+/** 
+ * @file   Enemy.cpp
+ * @brief  エネミー(キュウリ君)クラス
  * 
- * @date 2020-09-24
- * @author 松尾忠彦
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

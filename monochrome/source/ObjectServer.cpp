@@ -1,10 +1,8 @@
-
-/**
- * @file ObjectServer.cpp
- * @brief オブジェクト管理サーバークラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ObjectServer.cpp
+ * @brief  オブジェクト管理サーバー
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

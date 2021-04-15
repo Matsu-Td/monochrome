@@ -1,10 +1,8 @@
-
-/**
- * @file Goal.cpp
- * @brief ゴール発生処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Goal.cpp
+ * @brief  ゴールクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "Goal.h"

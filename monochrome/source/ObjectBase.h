@@ -1,18 +1,20 @@
-#pragma once
-
-/**
- * @file ObjectBase.h
- * @brief オブジェクト管理クラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ObjectBase.h
+ * @brief  オブジェクト基底クラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "DxLib.h"
 #include "mapchips.h"
 
 class Game;
 
+/**
+ * @brief オブジェクト基底クラス
+ */
 class ObjectBase{
 public:
 	ObjectBase();

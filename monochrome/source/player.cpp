@@ -1,10 +1,8 @@
-
-/**
- * @file Player.cpp
- * @brief プレイヤー計算、描画処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   player.cpp
+ * @brief  プレイヤークラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include <cmath>

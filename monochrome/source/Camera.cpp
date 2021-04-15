@@ -1,10 +1,8 @@
-
-/**
- * @file Camera.cpp
- * @brief カメラ処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Camera.cpp
+ * @brief  カメラクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "Camera.h"

@@ -1,10 +1,8 @@
-
-/**
- * @file ObjectBase.cpp
- * @brief オブジェクト管理クラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ObjectBase.cpp
+ * @brief  オブジェクト基底クラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

@@ -1,18 +1,21 @@
-#pragma once
-
-/**
- * @file ObjectServer.h
- * @brief オブジェクト管理サーバークラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ObjectServer.h
+ * @brief  オブジェクト管理サーバー
+ * 
+ * @author matsuo tadahiko
+ * @date   2021/04/
  */
+
+#pragma once
 
 #include <vector>
 #include "ObjectBase.h"
 
 class Game;
 
+/**
+ * @brief オブジェクト管理サーバークラス
+ */
 class ObjectServer {
 public:
 	ObjectServer();

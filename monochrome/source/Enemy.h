@@ -1,10 +1,8 @@
-
-/**
- * @file Enemy.h
- * @brief 敵(キュウリ君)の移動、描画処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Enemy.h
+ * @brief  エネミー(キュウリ君)クラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #pragma once
@@ -14,7 +12,9 @@
 #include <memory>
 #include "PianoSound.h"
 
-
+/**
+ * @brief エネミー(キュウリ君)クラス
+ */
 class Enemy : public ObjectBase {
 public:
 	Enemy(Game& g);

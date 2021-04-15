@@ -1,10 +1,8 @@
-
-/**
- * @file game.cpp
- * @brief ゲーム本体
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   game.cpp
+ * @brief  ゲーム本体
+ * 
+ * @author matsuo tadahiko
  */
 
 #define _USE_MATH_DEFINES

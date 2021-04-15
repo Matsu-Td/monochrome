@@ -1,17 +1,18 @@
-#pragma once
+/** 
+ * @file   PianoSound.h
+ * @brief  ステージ上音階再生処理クラス
+ * 
+ * @author matsuo tadahiko
+ */
 
-/**
-* @file PianoSound.h
-* @brief ステージ上音階再生処理
-*
-* @date 2020-09-24
-* @author 松尾忠彦
-*/
+#pragma once
 
 #include "game.h"
 
-class PianoSound
-{
+/**
+ * @brief ステージ上音階再生処理クラス
+ */
+class PianoSound{
 public:
 	/**
 	 * 音階の音量設定

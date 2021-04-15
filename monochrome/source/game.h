@@ -1,12 +1,11 @@
-#pragma once
-
-/**
- * @file game.h
- * @brief ゲーム本体
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   game.h
+ * @brief  ゲーム本体
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "ModeServer.h"
 #include "ObjectServer.h"
@@ -51,6 +50,9 @@ namespace CHARA {
 	};
 }
 
+/**
+ * @brief ゲームクラス
+ */
 class Game {
 public:
 	Game();             // アプリの初期化

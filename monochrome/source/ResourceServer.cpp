@@ -1,10 +1,8 @@
-
-/**
- * @file ResourceServer.cpp
- * @brief リソース管理サーバー
- *
- * @date 2020-07-16
- * @author 松尾忠彦
+/** 
+ * @file   ResourceServer.cpp
+ * @brief  リソース管理サーバー
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

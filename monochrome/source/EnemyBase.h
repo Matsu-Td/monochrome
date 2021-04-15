@@ -1,18 +1,18 @@
-#pragma once
-
-/**
- * @file EnemyBase.h
- * @brief 敵(フライパン)用ベースクラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   EnemyBase.h
+ * @brief  エネミー(フライパン)基底クラス
+ * 
+ * @author matsuo tadahiko
  */
 
+#pragma once
 
 #include "ObjectBase.h"
 
-class EnemyBase :public ObjectBase
-{
+/**
+ * @brief エネミー(フライパン)基底クラス
+ */
+class EnemyBase :public ObjectBase{
 public:
 	EnemyBase();
 	~EnemyBase();

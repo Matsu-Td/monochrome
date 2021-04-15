@@ -1,10 +1,8 @@
-
-/**
- * @file Note.cpp
- * @brief ‰¹•„Šl“¾ˆ—
- *
- * @date 2020-09-24
- * @author ¼”ö’‰•F
+/** 
+ * @file   Note.cpp
+ * @brief  ‰¹•„ƒNƒ‰ƒX
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "Note.h"

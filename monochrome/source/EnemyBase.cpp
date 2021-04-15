@@ -1,10 +1,8 @@
-
-/**
- * @file EnemyBase.cpp
- * @brief 敵(フライパン)用ベースクラス
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   EnemyBase.cpp
+ * @brief  エネミー(フライパン)基底クラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

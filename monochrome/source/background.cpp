@@ -1,10 +1,8 @@
-
-/**
- * @file background.cpp
- * @brief ”wŒi•`‰æ
- *
- * @date 2020-09-24
- * @author ¼”ö’‰•F
+/** 
+ * @file   background.cpp
+ * @brief  ”wŒiƒNƒ‰ƒX
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

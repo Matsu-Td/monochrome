@@ -1,16 +1,18 @@
-#pragma once
-
-/**
- * @file Camera.h
- * @brief カメラ処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Camera.h
+ * @brief  カメラクラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "DxLib.h"
 #include "ObjectBase.h"
 
+/**
+ * @brief カメラクラス
+ */
 class Camera : public ObjectBase {
 public:
 	Camera();

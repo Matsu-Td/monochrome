@@ -1,10 +1,8 @@
-
-/**
- * @file EnemyD.cpp
- * @brief 敵D(フライパン)の移動処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   EnemyD.cpp
+ * @brief  エネミー(フライパンD)クラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

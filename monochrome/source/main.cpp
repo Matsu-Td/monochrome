@@ -1,10 +1,8 @@
-
-/**
- * @file main.cpp
- * @brief エントリーポイント
- *
- * @date 2020-07-16
- * @author 松尾忠彦
+/** 
+ * @file   main.cpp
+ * @brief  エントリーポイント
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

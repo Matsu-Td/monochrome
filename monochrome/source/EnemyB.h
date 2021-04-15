@@ -1,17 +1,18 @@
-#pragma once
-
-/**
- * @file EnemyB.h
- * @brief 敵B(フライパン)の移動処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   EnemyB.h
+ * @brief  エネミー(フライパンB)クラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "EnemyBase.h"
 
-class EnemyB : public EnemyBase 
-{
+/**
+ * @brief エネミー(フライパンB)クラス
+ */
+class EnemyB : public EnemyBase {
 public:
 	EnemyB(Game& g);
 	~EnemyB();

@@ -1,11 +1,9 @@
-
-/**
-* @file PianoSound.cpp
-* @brief ステージ上音階再生処理
-*
-* @date 2020-09-24
-* @author 松尾忠彦
-*/
+/** 
+ * @file   PianoSound.cpp
+ * @brief  ステージ上音階再生処理クラス
+ * 
+ * @author matsuo tadahiko
+ */
 
 #include "DxLib.h"
 #include "PianoSound.h"

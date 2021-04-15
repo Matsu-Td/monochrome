@@ -1,15 +1,17 @@
-#pragma once
-
-/**
- * @file background.h
- * @brief ”wŒi•`‰æ
- *
- * @date 2020-09-24
- * @author ¼”ö’‰•F
+/** 
+ * @file   background.h
+ * @brief  ”wŒiƒNƒ‰ƒX
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "ObjectBase.h"
 
+/**
+ * @brief ”wŒiƒNƒ‰ƒX
+ */
 class BackGround
 {
 public:

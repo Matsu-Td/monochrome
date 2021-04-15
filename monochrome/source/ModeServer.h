@@ -12,6 +12,9 @@
 
 class Game;
 
+/**
+ * @brief モード管理サーバークラス
+ */
 class ModeServer{
 	using lstModeBase = std::list<ModeBase*>;
 

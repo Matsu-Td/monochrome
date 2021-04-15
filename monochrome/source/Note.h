@@ -1,16 +1,18 @@
-#pragma once
-
-/**
- * @file Note.h
- * @brief 音符獲得処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Note.h
+ * @brief  音符クラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "ObjectBase.h"
 #include "DxLib.h"
 
+/**
+ * @brief 音符クラス
+ */
 class Note :public ObjectBase {
 public:
 	Note(Game& g);

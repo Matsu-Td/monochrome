@@ -1,10 +1,8 @@
-
-/**
- * @file mapchips.cpp
- * @brief マップデータ、JSONファイル読み込み
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   mapchips.cpp
+ * @brief  マップデータ、JSONファイル読み込み
+ * 
+ * @author matsuo tadahiko
  */
 
 #define	_CRT_SECURE_NO_WARNINGS

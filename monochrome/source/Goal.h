@@ -1,15 +1,17 @@
-#pragma once
-
-/**
- * @file Goal.h
- * @brief ゴール発生処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Goal.h
+ * @brief  ゴールクラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "ObjectBase.h"
 
+/**
+ * @brief ゴールクラス
+ */
 class Goal:public ObjectBase {
 public:
 	Goal(Game& g);

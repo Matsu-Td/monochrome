@@ -1,15 +1,18 @@
-#pragma once
-
-/**
- * @file ResourceServer.h
- * @brief リソース管理サーバー
- *
- * @date 2020-07-16
- * @author 松尾忠彦
+/** 
+ * @file   ResourceServer.h
+ * @brief  リソース管理サーバー
+ * 
+ * @author matsuo tadahiko
+ * @date   2021/04/
  */
+
+#pragma once
 
 #include <unordered_map>
 
+/**
+ * @brief リソース管理サーバークラス
+ */
 class ResourceServer {
 public:
 	static void Init();
