@@ -1,9 +1,8 @@
-/**
- * @file ModeGame.cpp
- * @brief ゲームモード
- *
- * @date 2020-09-20
- * @author 松尾忠彦 
+/** 
+ * @file   ModeGame.cpp
+ * @brief  ゲームモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"
@@ -14,9 +13,6 @@
 
 int ModeGame::_steps;
 
-/**
- * 初期化
- */
 bool ModeGame::Initialize(Game& g) 
 {
 	if (!base::Initialize(g)) { return false; }
@@ -102,9 +98,6 @@ bool ModeGame::Initialize(Game& g)
 	return true;
 }
 
-/**
- * 解放
- */
 bool ModeGame::Terminate(Game& g){
 	base::Terminate(g);
 
@@ -113,9 +106,6 @@ bool ModeGame::Terminate(Game& g){
 	return true;
 }
 
-/**
- * フレーム処理：計算
- */
 bool ModeGame::Process(Game& g) {
 	base::Process(g);
 	if (_stopObjProcess == false){
@@ -125,9 +115,6 @@ bool ModeGame::Process(Game& g) {
 	return true;
 }
 
-/**
- * フレーム処理：描画
- */
 bool ModeGame::Draw(Game& g){
 	base::Draw(g);
 

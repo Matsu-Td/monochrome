@@ -1,20 +1,21 @@
-#pragma once
-
-/**
- * @file ModeBase.h
- * @brief モードベース
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ModeBase.h
+ * @brief  モード基底クラス
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include <string>
 
 class ModeServer;
 class Game;
 
-class ModeBase
-{
+/**
+ * @brief モード基底クラス
+ */
+class ModeBase{
 public:
 	ModeBase();
 	virtual ~ModeBase();

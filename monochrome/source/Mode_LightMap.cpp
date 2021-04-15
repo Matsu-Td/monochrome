@@ -1,10 +1,8 @@
-
-/**
- * @file Mode_LightMap.cpp
- * @brief ライトマップ処理(暗転)
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Mode_LightMap.cpp
+ * @brief  ライトマップモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

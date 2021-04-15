@@ -1,22 +1,23 @@
-
-/**
- * @file ModeTeamLogo.h
- * @brief チームロゴ表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeTeamLogo.h
+ * @brief  チームロゴ表示
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "ModeBase.h"
 
-class ModeTeamLogo : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief チームロゴモードクラス
+ */
+class ModeTeamLogo : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 protected:
 	static constexpr int ALPHA_MAX = 255;   // α最大値

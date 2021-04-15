@@ -1,17 +1,18 @@
-#pragma once
-
-/**
- * @file StageSlide.h
- * @brief ステージ選択、スライド処理
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   StageSlide.h
+ * @brief  ステージ選択、スライド処理
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "game.h"
 
-class StageSlide
-{
+/**
+ * @brief ステージ選択画面スライドクラス
+ */
+class StageSlide{
 public:
 	StageSlide();
 

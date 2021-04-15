@@ -1,12 +1,9 @@
-
-/**
- * @file ModeGameClear.cpp
- * @brief ゲームクリア
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeGameClear.cpp
+ * @brief  ゲームクリアモードクラス
+ * 
+ * @author matsuo tadahiko
  */
-
 
 #include "DxLib.h"
 #include "ModeGameOver.h"

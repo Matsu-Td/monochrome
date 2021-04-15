@@ -1,10 +1,9 @@
-
-/**
- * @file ModeTitle.h
- * @brief タイトル画面
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeTitle.h
+ * @brief  タイトルモードクラス
+ * 
+ * @author matsuo tadahiko
+ * @author iwamae soma
  */
 
 #include "ModeBase.h"
@@ -21,14 +20,17 @@ namespace MODETITLE {
 	};
 }
 
-class ModeTitle : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief タイトルモードクラス
+ */
+class ModeTitle : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 	static int _selectMenu;  // 選択しているメニューを格納
 

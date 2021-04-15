@@ -1,10 +1,8 @@
-
-/**
- * @file ModeStageSelect.h
- * @brief ステージ選択画面
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeStageSelect.h
+ * @brief  ステージセレクトモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "ModeBase.h"
@@ -13,14 +11,17 @@
 #include "KyuriStageSelect.h"
 #include "StageSyosai.h"
 
-class ModeStageSelect : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief ステージセレクトモードクラス
+ */
+class ModeStageSelect : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 protected: 
 	static constexpr int PIANO_ALL = 6;                          // ピアノブロック総数

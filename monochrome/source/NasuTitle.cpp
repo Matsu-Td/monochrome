@@ -1,11 +1,8 @@
-
-/**
- * @file NasuTitle.cpp
- * @brief タイトル画面でのプレイヤー移動
- *
- * @date 2020-09-20
- * @author 松尾忠彦
- * @author 岩前颯馬(一部)
+/** 
+ * @file   NasuTitle.cpp
+ * @brief  タイトル画面のプレイヤー移動処理
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

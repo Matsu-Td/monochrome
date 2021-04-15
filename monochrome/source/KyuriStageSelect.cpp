@@ -1,10 +1,8 @@
-
-/**
- * @file KyuriStageSelect.cpp
- * @brief ステージ選択画面の敵(キュウリ君)表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   KyuriStageSelect.cpp
+ * @brief  ステージ選択画面の敵(キュウリ君)表示
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

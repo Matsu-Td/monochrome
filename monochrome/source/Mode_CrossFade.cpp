@@ -1,10 +1,8 @@
-
-/**
- * @file Mode_CrossFade.cpp
- * @brief クロスフィード処理
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Mode_CrossFade.cpp
+ * @brief  クロスフィードモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

@@ -1,10 +1,8 @@
-
-/**
- * @file ModeServer.cpp
- * @brief モード管理サーバー
- *
- * @date 2020-08-01
- * @author 松尾忠彦
+/** 
+ * @file   ModeServer.cpp
+ * @brief  モード管理サーバー
+ * 
+ * @author matsuo tadahiko
  */
 
 #include <cstddef>

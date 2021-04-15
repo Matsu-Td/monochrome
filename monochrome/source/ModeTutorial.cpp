@@ -1,10 +1,8 @@
-
-/**
- * @file ModeTutorial.cpp
- * @brief チュートリアル
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ModeTutorial.cpp
+ * @brief  チュートリアルモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"
@@ -14,7 +12,6 @@
 #include "Mode_CrossFade.h"
 #include "ModeGame.h"
 #include "ModeTitle.h"
-
 
 bool ModeTutorial::Initialize(Game& g) {
 	if (!base::Initialize(g)) { return false; }

@@ -1,10 +1,8 @@
-
-/**
- * @file ModeAmgLogo.cpp
- * @brief AMGƒƒS(Šw‰@ƒƒS)•\¦
- *
- * @date 2020-09-20
- * @author ¼”ö’‰•F
+/** 
+ * @file   ModeAmgLogo.cpp
+ * @brief  AMGƒƒS•\¦
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

@@ -1,10 +1,8 @@
-
-/**
- * @file ModeBase.cpp
- * @brief モードベース
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ModeBase.cpp
+ * @brief  モード基底クラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"
@@ -30,23 +28,23 @@ ModeBase::ModeBase() {
 ModeBase::~ModeBase() {
 }
 
-bool	ModeBase::Initialize(Game& g) {
+bool ModeBase::Initialize(Game& g) {
 
 	return true;
 }
 
-bool	ModeBase::Terminate(Game& g) {
+bool ModeBase::Terminate(Game& g) {
 
 	return true;
 }
 
-bool	ModeBase::Process(Game& g)
+bool ModeBase::Process(Game& g)
 {
 	return	true;
 }
 
 
-bool	ModeBase::Draw(Game& g)
+bool ModeBase::Draw(Game& g)
 {
 	return	true;
 }

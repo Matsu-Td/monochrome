@@ -1,10 +1,8 @@
-
-/**
- * @file ModeTeamLogo.cpp
- * @brief チームロゴ表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeTeamLogo.cpp
+ * @brief  チームロゴ表示
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

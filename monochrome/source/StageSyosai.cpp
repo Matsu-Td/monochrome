@@ -1,10 +1,8 @@
-
-/**
- * @file StageSyosai.cpp
- * @brief ステージ詳細表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   StageSyosai.cpp
+ * @brief  ステージ詳細表示
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"
@@ -61,4 +59,3 @@ void StageSyosai::Draw(Game& g)
 		break;
 	}
 }
-

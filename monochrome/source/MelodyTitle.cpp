@@ -1,10 +1,8 @@
-
-/**
- * @file MelodyTitle.cpp
- * @brief タイトル画面獲得音符表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   MelodyTitle.cpp
+ * @brief  タイトル画面獲得音符表示
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

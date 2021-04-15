@@ -1,10 +1,9 @@
-
-/**
- * @file ModeTitle.cpp
- * @brief タイトル画面
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeTitle.cpp
+ * @brief  タイトルモードクラス
+ * 
+ * @author matsuo tadahiko
+ * @author iwamae soma
  */
 
 #include "DxLib.h"

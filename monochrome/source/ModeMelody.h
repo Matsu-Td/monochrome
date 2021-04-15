@@ -1,22 +1,23 @@
-
-/**
- * @file ModeMelody.h
- * @brief 獲得音符確認画面
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ModeMelody.h
+ * @brief  メロディーモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
-#include	"ModeBase.h"
+#include "ModeBase.h"
 
-class ModeMelody : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief メロディーモードクラス
+ */
+class ModeMelody : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 private:
 	static constexpr int GROUND_Y = 507;              // ナス君着地位置

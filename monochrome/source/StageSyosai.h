@@ -1,17 +1,18 @@
-#pragma once
-
-/**
- * @file StageSyosai.h
- * @brief ステージ詳細表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   StageSyosai.h
+ * @brief  ステージ詳細表示
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "game.h"
 
-class StageSyosai
-{
+/**
+ * @brief ステージ詳細表示クラス
+ */
+class StageSyosai{
 public:
 	StageSyosai();
 

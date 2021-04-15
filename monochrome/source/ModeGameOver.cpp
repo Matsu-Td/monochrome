@@ -1,10 +1,8 @@
-
-/**
- * @file ModeGameOver.cpp
- * @brief ゲームオーバー
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeGameOver.cpp
+ * @brief  ゲームオーバークラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

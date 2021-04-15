@@ -1,22 +1,23 @@
-
-/**
- * @file Mode_LightMap.h
- * @brief ライトマップ処理(暗転)
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   Mode_LightMap.h
+ * @brief  ライトマップモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "ModeBase.h"
 
-class Mode_LightMap : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief ライトマップモードクラス
+ */
+class Mode_LightMap : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 protected:
 	// ライトのマスデータに円のスポットライトを入れる

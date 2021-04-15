@@ -1,22 +1,23 @@
-
-/**
- * @file ModeAmgLogo.h
- * @brief AMGƒƒS(Šw‰@ƒƒS)•\¦
- *
- * @date 2020-09-20
- * @author ¼”ö’‰•F
+/** 
+ * @file   ModeAmgLogo.h
+ * @brief  AMGƒƒS•\¦
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "ModeBase.h"
 
-class ModeAmgLogo : public ModeBase
-{
-	typedef ModeBase base;
+/**
+ * @brief AMGƒƒSƒ‚[ƒhƒNƒ‰ƒX
+ */
+class ModeAmgLogo : public ModeBase{
+	using base = ModeBase;
+
 public:
-	virtual bool Initialize(Game& g);
-	virtual bool Terminate(Game& g);
-	virtual bool Process(Game& g);
-	virtual bool Draw(Game& g);
+	bool Initialize(Game& g);
+	bool Terminate(Game& g);
+	bool Process(Game& g);
+	bool Draw(Game& g);
 
 protected:
 	static constexpr int ALPHA_MAX = 255;      // ƒ¿Å‘å’l

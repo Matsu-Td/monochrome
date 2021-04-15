@@ -1,10 +1,8 @@
-
-/**
- * @file StageSlide.cpp
- * @brief ステージ選択、スライド処理
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   StageSlide.cpp
+ * @brief  ステージ選択、スライド処理
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

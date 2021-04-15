@@ -1,10 +1,8 @@
-
-/**
- * @file ModeGame.h
- * @brief ゲームモード
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeGame.h
+ * @brief  ゲームモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "ModeBase.h"
@@ -20,8 +18,12 @@
 #include "Note.h"
 #include "Camera.h"
 
+/**
+ * @brief ゲームモードクラス
+ */
 class ModeGame : public ModeBase {
-	typedef ModeBase base;
+	using base = ModeBase;
+
 public:
 	virtual bool Initialize(Game& g);
 	virtual bool Terminate(Game& g);

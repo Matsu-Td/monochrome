@@ -1,17 +1,18 @@
-#pragma once
-
-/**
- * @file MelodyTitle.h
- * @brief タイトル画面獲得音符表示
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   MelodyTitle.h
+ * @brief  タイトル画面獲得音符表示
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include "game.h"
 
-class MelodyTitle
-{
+/**
+ * @brief タイトル画面獲得音符表示
+ */
+class MelodyTitle{
 public:
 	MelodyTitle();
 

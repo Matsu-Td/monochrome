@@ -1,21 +1,19 @@
-#pragma once
-
-/**
- * @file ModeServer.h
- * @brief モード管理サーバー
- *
- * @date 2020-08-01
- * @author 松尾忠彦
+/** 
+ * @file   ModeServer.h
+ * @brief  モード管理サーバー
+ * 
+ * @author matsuo tadahiko
  */
+
+#pragma once
 
 #include <list>
 #include "ModeBase.h"
 
 class Game;
 
-class	ModeServer
-{
-	typedef	std::list<ModeBase*>		lstModeBase;
+class ModeServer{
+	using lstModeBase = std::list<ModeBase*>;
 
 public:
 	ModeServer(Game& g);

@@ -1,10 +1,8 @@
-
-/**
- * @file ModeMelody.cpp
- * @brief 獲得音符確認画面
- *
- * @date 2020-09-24
- * @author 松尾忠彦
+/** 
+ * @file   ModeMelody.cpp
+ * @brief  メロディーモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"

@@ -1,10 +1,8 @@
-
-/**
- * @file ModeStageSelect.cpp
- * @brief ステージ選択画面
- *
- * @date 2020-09-20
- * @author 松尾忠彦
+/** 
+ * @file   ModeStageSelect.cpp
+ * @brief  ステージセレクトモードクラス
+ * 
+ * @author matsuo tadahiko
  */
 
 #include "DxLib.h"
